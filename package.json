@@ -1,0 +1,30 @@
+{
+  "name": "julian-date",
+  "version": "1.0.0",
+  "description": "Convert javascript dates to julian dates and days",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "lint": "./node_modules/.bin/eslint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonhester/julian-date.git"
+  },
+  "keywords": [
+    "julian",
+    "date",
+    "gregorian",
+    "convert"
+  ],
+  "author": "Jon Hester",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonhester/julian-date/issues"
+  },
+  "homepage": "https://github.com/jonhester/julian-date",
+  "devDependencies": {
+    "eslint": "^0.16.0",
+    "mocha": "^2.2.0"
+  }
+}
