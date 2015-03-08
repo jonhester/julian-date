@@ -4,9 +4,7 @@
   "description": "Convert javascript dates to julian dates and days",
   "main": "./lib/julian.js",
   "scripts": {
-    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec \
-  && cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js \
-  && rm -rf ./coverage",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js && rm -rf ./coverage",
     "lint": "./node_modules/.bin/eslint lib",
     "build": "./node_modules/.bin/browserify index.js | uglifyjs > ./dist/julianDate.min.js"
   },
