@@ -1,4 +1,4 @@
-# julian-date [![Build Status](https://travis-ci.org/jonhester/julian-date.svg?branch=master)](https://travis-ci.org/jonhester/julian-date)
+# julian-date [![npm](https://img.shields.io/npm/v/julian-date.svg)](https://www.npmjs.com/package/julian-date) [![Build Status](https://travis-ci.org/jonhester/julian-date.svg?branch=master)](https://travis-ci.org/jonhester/julian-date)
 
 ### Installing
 ```
