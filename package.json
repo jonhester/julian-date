@@ -4,7 +4,9 @@
   "description": "Convert javascript dates to julian dates and days",
   "main": "./lib/julian.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec \
+  && cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js \
+  && rm -rf ./coverage",
     "lint": "./node_modules/.bin/eslint lib",
     "build": "./node_modules/.bin/browserify index.js | uglifyjs > ./dist/julianDate.min.js"
   },
@@ -26,7 +28,9 @@
   "homepage": "https://github.com/jonhester/julian-date",
   "devDependencies": {
     "browserify": "^9.0.3",
+    "codecov.io": "0.0.8",
     "eslint": "^0.16.0",
+    "istanbul": "^0.3.7",
     "mocha": "^2.2.0",
     "uglify-js": "^2.4.16"
   }
