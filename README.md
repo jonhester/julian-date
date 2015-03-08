@@ -1,4 +1,4 @@
-# julian-date [![npm](https://img.shields.io/npm/v/julian-date.svg)](https://www.npmjs.com/package/julian-date) [![MIT](https://img.shields.io/npm/l/julian-date.svg)](https://github.com/jonhester/julian-date/blob/master/LICENSE) [![Build Status](https://travis-ci.org/jonhester/julian-date.svg?branch=master)](https://travis-ci.org/jonhester/julian-date) 
+# julian-date [![npm](https://img.shields.io/npm/v/julian-date.svg)](https://www.npmjs.com/package/julian-date) [![MIT](https://img.shields.io/npm/l/julian-date.svg)](https://github.com/jonhester/julian-date/blob/master/LICENSE) [![Build Status](https://travis-ci.org/jonhester/julian-date.svg?branch=master)](https://travis-ci.org/jonhester/julian-date) [![CodeCov](https://img.shields.io/codecov/c/github/jonhester/julian-date.svg)](https://codecov.io/github/jonhester/julian-date)
 
 ### Installing via NPM
 ```
