@@ -1,5 +1,11 @@
-# julian-date
+# julian-date [![Build Status](https://travis-ci.org/jonhester/julian-date.svg?branch=master)](https://travis-ci.org/jonhester/julian-date)
 
+### Installing
+```
+npm install julian-date
+```
+
+### Create new JulianDate
 ```js
 var JulianDate = require('julian-date');
 
