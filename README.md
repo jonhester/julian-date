@@ -1,10 +1,18 @@
 # julian-date [![npm](https://img.shields.io/npm/v/julian-date.svg)](https://www.npmjs.com/package/julian-date) [![Build Status](https://travis-ci.org/jonhester/julian-date.svg?branch=master)](https://travis-ci.org/jonhester/julian-date)
 
-### Installing
+### Installing via NPM
 ```
 npm install julian-date
 ```
 
+### Browser
+[Browser Download](https://github.com/jonhester/julian-date/releases/download/v1.0.0/julianDate.min.js.zip) 
+```html
+<script src="julianDate.min.js"></script>
+<script>
+var j = new JulianDate();
+</script>
+```
 ### Create new JulianDate
 ```js
 var JulianDate = require('julian-date');
