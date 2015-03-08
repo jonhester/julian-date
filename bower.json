@@ -1,0 +1,25 @@
+{
+  "name": "julian-date",
+  "main": "./dist/julianDate.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jonhester/julian-date",
+  "authors": [
+    "Jon Hester <jon.d.hester@gmail.com>"
+  ],
+  "description": "Convert javascript dates to julian dates and days",
+  "keywords": [
+    "julian",
+    "date",
+    "convert"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    ".*",
+    "lib",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

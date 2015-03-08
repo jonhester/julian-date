@@ -1,1 +1,3 @@
-require('./lib/julian.js');
+'use strict';
+
+global.JulianDate = require('./lib/julian.js');
