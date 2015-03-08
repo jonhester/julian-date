@@ -2,7 +2,7 @@
   "name": "julian-date",
   "version": "1.0.0",
   "description": "Convert javascript dates to julian dates and days",
-  "main": "index.js",
+  "main": "./lib/julian.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha",
     "lint": "./node_modules/.bin/eslint lib",

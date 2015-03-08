@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require("assert"); // node.js core module
-var Julian = require('../lib/julian.js');  // our module
+var Julian = require('../');  // our module
 
 describe('create new julian date', function() {
   it('should create julian date with no param', function() {
