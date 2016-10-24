@@ -17,7 +17,7 @@ var j = new JulianDate();
 ```js
 var JulianDate = require('julian-date');
 
-var j = new Julian();
+var j = new JulianDate();
 
 // Get the julian date
 j.julian(); // 2457088.5
@@ -36,10 +36,10 @@ j.julianDays(); // 5543.5
 ```js
 var JulianDate = require('julian-date');
 
-var j1 = new Julian().julian(2457088.5);
+var j1 = new JulianDate().julian(2457088.5);
 j1.getDate() // Fri Mar 06 2015 19:00:00 GMT-0500 (EST)
 
-var j2 = new Julian().julianDays(5543.5)
+var j2 = new JulianDate().julianDays(5543.5)
 j2.getDate() // Fri Mar 06 2015 19:00:00 GMT-0500 (EST)
 
 ```
